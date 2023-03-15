@@ -1,18 +1,18 @@
-# Express-Sequelize-API
+<h1> # Express-Sequelize-API </h1> 
 
 
-API de estudo Express/Sequelize.
+<h2> API de estudo Express/Sequelize.</h2> 
 
 Simula um sistema de matricula de alunos.
 
-Entidades: Alunos, Matriculas, Turmas, Niveis
+<h4><b> Entidades:</b></h4>  Alunos, Matriculas, Turmas, Niveis
 
 Node 18v.
 Sequelize 5.5.1v
 
 
 
-Principais rotas para teste:
+<h4><b> Principais rotas para teste:</b></h4> 
 
 get('/pessoas', PessoaController.pegaTodasAsPessoas)
 
