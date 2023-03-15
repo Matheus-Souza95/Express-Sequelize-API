@@ -14,11 +14,11 @@ Sequelize 5.5.1v
 
 Principais rotas para teste:
 
-get('/pessoas', PessoaController.pegaTodasAsPessoas);
-get('/pessoas/:id', PessoaController.pegaUmaPessoa);
-post('/pessoas', PessoaController.criaPessoa);
-put('/pessoas/:id', PessoaController.atualizaPessoa);
-delete('/pessoas/:id', PessoaController.apagaPessoa);
-get('/pessoas/:estudanteId/matriculas/:matriculaId', PessoaController.pegaUmaMatricula);
-post('/pessoas/:estudanteId/matriculas', PessoaController.criaMatricula);
-delete('/pessoas/:estudanteId/matriculas/:matriculaId', PessoaController.apagaMatricula);
+get('/pessoas', PessoaController.pegaTodasAsPessoas)
+get('/pessoas/:id', PessoaController.pegaUmaPessoa)
+post('/pessoas', PessoaController.criaPessoa)
+put('/pessoas/:id', PessoaController.atualizaPessoa)
+delete('/pessoas/:id', PessoaController.apagaPessoa)
+get('/pessoas/:estudanteId/matriculas/:matriculaId', PessoaController.pegaUmaMatricula)
+post('/pessoas/:estudanteId/matriculas', PessoaController.criaMatricula)
+delete('/pessoas/:estudanteId/matriculas/:matriculaId', PessoaController.apagaMatricula)
